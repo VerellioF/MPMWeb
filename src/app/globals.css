@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --honda-red: #E4002B;
+  --honda-red-hover: #C50025;
+  --surface-bg: #F8FAFC;
+  --surface-card: #FFFFFF;
+  --text-main: #0F172A;
+  --text-muted: #475569;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--surface-bg);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Automotive dealership styling tokens */
+.bg-honda-red {
+  background-color: #E4002B;
+}
+
+.text-honda-red {
+  color: #E4002B;
+}
+
+.border-honda-red {
+  border-color: #E4002B;
+}
